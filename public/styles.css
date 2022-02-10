@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+        font-family: Poppins,Roboto,Helvetica,Arial,sans-serif;
+        line-height: 1.5;
+    }
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: wheat;
+}
+
+/* header component */
+
+.header{
+    text-align: center;
+
+    line-height: 2;
+}
+
+/* footer component */
+
+.foot{
+    position: absolute;
+    bottom: 0;
+}
+
+.foot .flexbox{
+    background-color: #ffffff;
+    line-height: 3;
+    
+}
+
+.col1{
+    width:175px;
+   
+    box-sizing: border-box;
+}
+
+/* App component */
+
+.flexbox{
+    display: flex;
+    background-color: rgba(240,235,244);
+}
+
+
+
+.left-column{
+    height:100vh;
+    width:350px;
+    background-color:#ffffff;
+}
+
+.right-column{
+    height: 100vh;
+    position: relative;
+}
+
+.right-column-p {
+   position: absolute;
+   top:290px;
+   left:380px;
+   width:200px;
+}
+
+/* Button Component */
+
+.btn-container{
+   text-align: center;
+}
+
+
+
+.btn{
+    display: block;
+    font-size: small;
+    width:300px;
+    height: 50px;
+    margin:10px auto;
+    color: #4B1D54;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+
+.mybtn2{
+    font-size: 20px;
+}
+
+div.mybtn{
+    border-radius: 25px;
+    color: #ffffff;
+    background-color: #4B1D54;
+    border: 4px solid hsl(290, 55%, 48%);
+    
+}
+div.mybtn:hover{
+    background-color: #4B1D54;
+    color: #ffffff;
+}
+
+.btn:hover{
+    background-color: rgb(232, 217, 243); ;
+}
